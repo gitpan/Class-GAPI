@@ -1,5 +1,5 @@
 package Class::GAPI 	  ;
-$VERSION = '1.0'    	  ;
+$VERSION = '1.1'    	  ;
 use strict 	          ; 
 
 #
@@ -426,7 +426,7 @@ thing in cgi code. Consider yourself warned.
 This was written on an Win32 box running cygwin and Activestate, and it works on both with Perl 5.8. 
 I expect it should work with anything later than 5.6.1, but It hasn't been tested. 
 
-Autoloaded methods tend to cause silent failure modes. Essentailly typos that would have 
+Autoloaded methods tend to cause silent failure modes. Essentially typos that would have 
 normally crashed perl will often just end up creating a dangling property somewhere. 
 Use $self->warn_self() to take snapshots of objects if something is not getting properly 
 populated. If you see two similarly named properties, you've found the culprit. 
@@ -436,11 +436,11 @@ No animals were harmed in the development of this module.
 =head1 AUTHOR
 
 Matthew Sibley 
-matt@crosswire.com
+matt@itoperators.com
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright (C) 2005 Crosswire Industries Inc.  (http://www.crosswire.com) 
+Copyright (C) 2005 Crosswire Industries Inc.  (http://www.itoperators.com) 
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.6 or,

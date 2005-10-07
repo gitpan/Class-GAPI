@@ -3,7 +3,7 @@ package Class::List         ;
 use Class::GAPI 		    ;
 our @ISA = qw(Class::GAPI)  ;
 
-my $VERSION = '1.0' 	    ; 
+my $VERSION = '1.1' 	    ; 
 use strict                  ; 
 
 sub new {
@@ -26,11 +26,11 @@ See Class::GAPI for usage. Generally this is not used by itself.
 =head1 AUTHOR
 
 Matthew Sibley 
-matt@crosswire.com
+matt@itoperators.com
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright (C) 2005 Crosswire Industries Inc.  (http://www.crosswire.com) 
+Copyright (C) 2005 IT Operators  (http://www.itoperators.com) 
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.6 or,
